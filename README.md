@@ -8,8 +8,8 @@ MRI_gland_seg程式說明
 
 2.使用 dicom_test.m 讀入 DICOM 影像目錄，乳房區域切割成功後輸出 'breast_area.mat' (乳房區域)
 
-3_1.若乳房區域切割不佳，使用 read_mat.m ，讀入 'breast_area.mat' ，輸出 'breast_area.raw' (乳房區域 Binary Raw Image)，再用 ITK-SNAP 讀入 DICOM 影像目錄與 'breast_area.raw' 修正後輸  
-出 'breast_area.nii' (NiTFI 格式乳房區域）
+3_1.若乳房區域切割不佳，使用 read_mat.m ，讀入 'breast_area.mat' ，輸出 'breast_area.raw' (乳房區域 Binary Raw Image)，再用 ITK-SNAP 讀入 DICOM 影像目錄與 
+    'breast_area.raw' 修正後輸出 'breast_area.nii' (NiTFI 格式乳房區域）
 
 3_2.若乳房區域切割失敗，可用 ITK-SNAP 手動產生 'breast_area.nii' (NiTFI 格式乳房區域)
 
